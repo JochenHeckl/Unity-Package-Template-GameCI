@@ -1,0 +1,16 @@
+{
+    "name": "de.jochenheckl.unity.unity-package-template-gameci.runtime.tests",
+    "rootNamespace": "de.jochenheckl.unity.unity-package-template-gameci.runtime.tests",
+    "references": [
+        "GUID:d729bec08b446c84db419263d0c3db1e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

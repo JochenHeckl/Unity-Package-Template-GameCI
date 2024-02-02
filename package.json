@@ -1,0 +1,24 @@
+{
+  "name": "de.jochenheckl.unity.unity-package-template-gameci",
+  "version": "1.0.0",
+  "displayName": "GameCI Unity Package Template",
+  "description": "This is a package template that uses GameCI ro run the package's tests using a github workflow",
+  "unity": "2023.2",
+  "documentationUrl": "https://github.com/jochenheckl/Unity-package-template-GameCI",
+  "changelogUrl": "https://github.com/jochenheckl/Unity-package-template-GameCI/changelog.html",
+  "licensesUrl": "https://github.com/jochenheckl/Unity-package-template-GameCI/licensing.html",
+  "dependencies": {
+    "com.unity.test-framework": "1.4.3"
+  },
+  "keywords": [
+    "unity",
+    "package",
+    "continuous integration",
+    "gameci"
+  ],
+  "author": {
+    "name": "Jochen Heckl",
+    "email": "jochen.heckl@gmail.com",
+    "url": "https://www.jochenheckl.de"
+  }
+}

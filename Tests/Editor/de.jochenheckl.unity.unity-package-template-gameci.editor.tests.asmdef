@@ -1,0 +1,19 @@
+{
+    "name": "de.jochenheckl.unity.unity-package-template-gameci.editor.tests",
+    "rootNamespace": "de.jochenheckl.unity.unity-package-template-gameci.editor.tests",
+    "references": [
+        "GUID:e79fea3ff6c15624aa33c57f5ec33844",
+        "GUID:d729bec08b446c84db419263d0c3db1e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
