@@ -33,11 +33,3 @@ jobs:
           packageMode: true
           unityVersion: ${{ matrix.unityVersion }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      
-     # Output Test Artifacts
-      - uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: Test results
-          path: artifacts
