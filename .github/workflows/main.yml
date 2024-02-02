@@ -2,12 +2,12 @@ name: Actions
 
 on: [push, pull_request, workflow_dispatch]
 
-permissions:
-  contents: write
-
 jobs:
   run_test:
     name: Run Tests
+
+    permissions:
+      checks: write
 
     strategy:
       matrix:
