@@ -13,6 +13,9 @@ jobs:
       matrix:
         unityVersion:
           - 2023.2.7f1
+          - 2023.1.20f1
+          - 2022.3.19f1
+          - 2021.3.34f1
         os:
           - ubuntu-latest
     
@@ -24,15 +27,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: false
-      
-      # Cache
-      - uses: actions/cache@v3
-        with:
-          path: path/to/your/project/Library
-          key: Library-MyProjectName-TargetPlatform
-          restore-keys: |
-            Library-MyProjectName-
-            Library-
 
       # Test
       - name: run tests
